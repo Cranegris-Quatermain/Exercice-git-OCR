@@ -1,0 +1,35 @@
+*{margin:0;padding:0;position:relative;}
+section{
+	width:400px;
+	height:200px auto;
+	margin:auto;
+	margin-top:20px;margin-bottom:25px;
+}
+h1,form,div{
+	padding:10px; margin-bottom:30px;
+	border:2px groove gray; 
+	border-radius:7px;
+	box-shadow:2px 2px 3px black;
+	background-color:skyblue;
+}
+h1{
+	color:white;
+	text-align:center;
+	text-shadow:2px 1px 4px black;
+	font-size:4em;
+}
+div p:nth-child(odd){background-color:white;}
+div p:nth-child(odd) {color:skyblue;}
+div p:nth-child(even) {color:white;}
+p span:first-child{font-style:italic;}
+p span:last-child{color:black;}
+
+hr{
+	margin-top:15px;margin-bottom:15px;
+}
+form p:first-child{margin-bottom:15px;}
+input+a{float:right; font-style:italic; color:white; text-shadow:1px 1px 3px black;}
+P + p label input[type*=text]{width:70%;}
+input[type*=submit]{
+	width:100%;
+}
